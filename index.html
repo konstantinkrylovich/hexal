@@ -12,20 +12,17 @@
 		<header class="header">
 			<div class="nav">
 				<ul class="nav-list">
-					<li><a href="#">PORTFOLIO</a></li>
+					<li><a href="#portfolio">PORTFOLIO</a></li>
 					<span class="dott"></span>
-					<li><a href="#">ABOUT</a></li>
+					<li><a href="#about">ABOUT</a></li>
 					<li class="logo-li"><img src="assets/images/Logo@1X.png" alt="logo" class="logo"></li>
-					<li><a href="#">BLOG</a></li>
+					<li><a href="#blog">BLOG</a></li>
 					<span class="dott"></span>
-					<li><a href="#">GET IN TOUCH</a></li>
+					<li><a href="#get-in-touch">GET IN TOUCH</a></li>
 				</ul>
 				
 			</div>
-			
-		
 		</header>
-		
 		<main>
 			<div class="wrapper">
 				<section id = "portfolio">
@@ -188,9 +185,21 @@
 							</div>
 					</article>
 				</section>
-
 			</div>
 		</main>
+		<footer id="get-in-touch">
+			<div class="footer-header">
+				<h2>Get In Touch</h2>
+				<h3>In order to get in touch use the contact form below:</h3>
+			</div>
+			<form action="get" class="footer-form">
+				<div class="inputs"><input type="text" id="name" name="name" placeholder="Name (Required)" required></div>
+				<div class="inputs"><input type="email" id="email" name="email" placeholder="Email (Required)" required></div>
+				<div class="inputs"><input type="text" id="subject" name="subject" placeholder="Subject"></div>
+				<div class="inputs"><textarea name="" value="" placeholder="Write your message here..."></textarea></div>
+				<div class="inputs"><button type="submit" value="SEND" id="send">SEND</button></div>
+			</form>
+		</footer>
 	
 </body>
 </html>
