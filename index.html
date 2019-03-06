@@ -6,6 +6,7 @@
 	<title>Hexal</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
 	
@@ -163,42 +164,66 @@
 								</div>
 								</div>
 				</section>
-				<section id = "about">
-					<article class = "about-block">
-							<div class="polygon-wrapper avatar">
-									<img src="assets/images/Image@1X.png" alt="avatar" class="polygon-clip-hexagon-ava">
-									<svg class="clip-svg">
-										<defs>
-											<clipPath id="polygon-clip-hexagon-ava" clipPathUnits="objectBoundingBox">
-												<polygon points="0.5 0, 0.71 0.25, 0.71 0.75, 0.5 1, 0.29 0.75, 0.29 0.25" />
-											</clipPath>
-										</defs>
-									</svg>
-								</div>
-							<div class="about-block-text">
-								<h2>Smith Anderson</h2>
-								<h3>Illustrator & Character Designer</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. 
-									Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. 
-									Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
-								<div class = "social-media"></div>
-							</div>
-					</article>
-				</section>
 			</div>
+			<section id = "about">
+				<div class = "wrapper">
+							<article class = "about-block">
+									<div class="polygon-wrapper avatar">
+											<img src="assets/images/Image@1X.png" alt="avatar" class="polygon-clip-hexagon-ava">
+											<svg class="clip-svg">
+												<defs>
+													<clipPath id="polygon-clip-hexagon-ava" clipPathUnits="objectBoundingBox">
+														<polygon points="0.5 0, 0.71 0.25, 0.71 0.75, 0.5 1, 0.29 0.75, 0.29 0.25" />
+													</clipPath>
+												</defs>
+											</svg>
+										</div>
+									<div class="about-block-text">
+										<h2>Smith Anderson</h2>
+										<h3>Illustrator & Character Designer</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. 
+											Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. 
+											Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
+										<div class = "social-media">
+											<a href = "#" class = "social facebook"><i class="fab fa-facebook-f"></i></a><a href = "#" class = "social twitter"><i class="fab fa-twitter"></i></a><a href = "#" class = "social google"><i class="fab fa-google"></i></a><a href = "#" class = "social pinterest"><i class="fab fa-pinterest-p"></i></a><a href = "#" class = "social linkedin"><i class="fab fa-linkedin-in"></i></a><a href = "#" class = "social dribbble"><i class="fab fa-dribbble"></i></a>
+										</div>
+									</div>
+							</article>
+				</div>
+			</section>
 		</main>
 		<footer id="get-in-touch">
-			<div class="footer-header">
-				<h2>Get In Touch</h2>
-				<h3>In order to get in touch use the contact form below:</h3>
+			<div class="wrapper">
+				<div class="footer-header">
+					<h2>Get In Touch</h2>
+					<h3>In order to get in touch use the contact form below:</h3>
+				</div>
+				<form action="get" class="footer-form">
+					<div class="inputs"><input type="text" id="name" name="name" placeholder="Name (Required)" required></div>
+					<div class="inputs"><input type="email" id="email" name="email" placeholder="Email (Required)" required></div>
+					<div class="inputs"><input type="text" id="subject" name="subject" placeholder="Subject"></div>
+					<div class="inputs"><textarea name="" value="" placeholder="Write your message here..."></textarea></div>
+					<div class="inputs send"><button type="submit" value="SEND" id="send">SEND</button></div>
+				</form>
+				<div class = "footer-contacts">
+					<div class = "description"><p><span>Quisque Hendrerit: </span>purus dapibus, ornare nibh vitae, viverra nibh. 
+						Fusce vitae aliquam tellus. 
+						Proin sit amet volutpat libero. 
+						Nulla sed nunc et tortor luctus faucibus morbi vitae. </p>
+				    </div>
+					<div class = "contacts">
+						<div>
+							<i class="fas fa-map-marker-alt"></i> <a href="#">Elm St. 14/05 Lost City</a>
+						</div>
+						<div>
+							<i class="fas fa-phone"></i><a href="#">+ 3528 331 86 35</a>
+						</div>
+						<div>
+							<i class="far fa-envelope"></i><a href="#">info@hexalcorp.com</a>
+						</div>
+					</div>
+				</div>	
 			</div>
-			<form action="get" class="footer-form">
-				<div class="inputs"><input type="text" id="name" name="name" placeholder="Name (Required)" required></div>
-				<div class="inputs"><input type="email" id="email" name="email" placeholder="Email (Required)" required></div>
-				<div class="inputs"><input type="text" id="subject" name="subject" placeholder="Subject"></div>
-				<div class="inputs"><textarea name="" value="" placeholder="Write your message here..."></textarea></div>
-				<div class="inputs"><button type="submit" value="SEND" id="send">SEND</button></div>
-			</form>
 		</footer>
 	
 </body>
