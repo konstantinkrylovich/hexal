@@ -9,20 +9,19 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
-	
-		<header class="header">
-			<div class="nav">
-				<ul class="nav-list">
-					<li><a href="#portfolio">PORTFOLIO</a></li>
-					<span class="dott"></span>
-					<li><a href="#about">ABOUT</a></li>
-					<li class="logo-li"><img src="assets/images/Logo@1X.png" alt="logo" class="logo"></li>
-					<li><a href="#blog">BLOG</a></li>
-					<span class="dott"></span>
-					<li><a href="#get-in-touch">GET IN TOUCH</a></li>
-				</ul>
-			</div>
-		</header>
+	<header class="header">
+		<div class="nav">
+			<ul class="nav-list">
+				<li><a href="#portfolio">PORTFOLIO</a></li>
+				<span class="dott"></span>
+				<li><a href="#about">ABOUT</a></li>
+				<li class="logo-li"><img src="assets/images/Logo@1X.png" alt="logo" class="logo" name="logo"></li>
+				<li><a href="#">BLOG</a></li>
+				<span class="dott"></span>
+				<li><a href="#get-in-touch">GET IN TOUCH</a></li>
+			</ul>
+		</div>
+	</header>
 		<main>
 			<div class="wrapper">
 				<section id = "portfolio">
@@ -118,23 +117,33 @@
 			</div>
 			<section id = "about">
 				<div class = "wrapper">
-					<article class = "about-block">
-						<div class="hexagon">
+					<div class = "profile">
+						<div class="hexagon profile-photo">
 							<div class="hexagon-layer1">
 								<div class="hexagon-layer2 hex-14"></div>
 							</div>
 						</div>
-						<div class="about-block-text">
-							<h2>Smith Anderson</h2>
-							<h3>Illustrator & Character Designer</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. 
-								Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. 
-								Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
+						<div class="profile-description">
+							<div class = "profile-text">
+								<h1>Smith Anderson</h1>
+								<h3>Illustrator & Character Designer</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna
+									pretium augue, eget consectetur sem dui non urna.
+									Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus.
+									Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue,
+									eget consectetur sem dui non urna
+								</p>
+							</div>
 							<div class = "social-media">
-								<a href = "#" class = "social facebook"><i class="fab fa-facebook-f"></i></a><a href = "#" class = "social twitter"><i class="fab fa-twitter"></i></a><a href = "#" class = "social google"><i class="fab fa-google"></i></a><a href = "#" class = "social pinterest"><i class="fab fa-pinterest-p"></i></a><a href = "#" class = "social linkedin"><i class="fab fa-linkedin-in"></i></a><a href = "#" class = "social dribbble"><i class="fab fa-dribbble"></i></a>
+								<a href="https://www.facebook.com" class="social facebook" target = "_blank"><i class="fab fa-facebook-f"></i></a>
+								<a href="https://twitter.com" class="social twitter" target = "_blank"><i class="fab fa-twitter"></i></a>
+								<a href="https://plus.google.com" class="social google" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+								<a href="https://www.pinterest.com" class="social pinterest" target = "_blank"><i class="fab fa-pinterest-p"></i></a>
+								<a href="https://www.linkedin.com" class="social linkedin" target = "_blank"><i class="fab fa-linkedin-in"></i></a>
+								<a href="https://dribbble.com" class="social dribbble" target = "_blank"><i class="fab fa-dribbble"></i></a>
 							</div>
 						</div>
-					</article>
+					</div>
 				</div>
 			</section>
 		</main>
@@ -160,13 +169,15 @@
 				    </div>
 					<div class = "contacts">
 						<div>
-							<i class="fas fa-map-marker-alt"></i> <a href="#">Elm St. 14/05 Lost City</a>
+							<i class="fas fa-map-marker-alt"></i> <a href="https://www.google.com/maps/place/14+Lost+City+Drive,+Mathias,+WV+26812,+%D0%A1%D0%A8%D0%90/@38.931273,-78.8354695,17z/data=!3m1!4b1!4m8!1m2!2m1!1zMTQvMDUgTG9zdCBDaXR5IERyaXZlLCBNYXRoaWFzLCDQl9Cw0L_QsNC00L3QsNGPINCS0LjRgNC00LbQuNC90LjRjywg0KHQqNCQ!3m4!1s0x89b5054a252b24fd:0x455fcd3f8e203f8!8m2!3d38.9312688!4d-78.8332808"
+ target="_blank">Elm
+	St. 14/05 Lost City</a>
 						</div>
 						<div>
-							<i class="fas fa-phone"></i><a href="#">+ 3528 331 86 35</a>
+							<i class="fas fa-phone"></i><a href="callto:+35283318635" >+ 3528 331 86 35</a>
 						</div>
 						<div>
-							<i class="far fa-envelope"></i><a href="#">info@hexalcorp.com</a>
+							<i class="fas fa-envelope"></i><a href="mailto:info@hexalcorp.com">info@hexalcorp.com</a>
 						</div>
 					</div>
 				</div>
